@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ucos_vc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\stophin\AppData\Local\Temp\RSPD547.tmp" with contents
+[
+/nologo /MT /W3 /Gm /GX /ZI /I "UCOS/CPU" /I "UCOS/SOURCE" /I "PC" /I "UCOS/CONFIG" /I "FS/API" /I "FS/CLIB" /I "FS/CONFIG/WIN32" /I "FS/DEVICE/RAM" /I "FS/FSL/FAT" /I "FS/LBL" /I "FS/OS" /I "UCOS/shell" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"OUTPUT/Debug/" /Fp"OUTPUT/Debug/ucos_vc.pch" /YX /Fo"OUTPUT/Debug/" /Fd"OUTPUT/Debug/" /FD /GZ /c 
+"E:\program\ucos_vc\UCOS\Shell\commands.c"
+]
+Creating command line "cl.exe @C:\Users\stophin\AppData\Local\Temp\RSPD547.tmp" 
+Creating temporary file "C:\Users\stophin\AppData\Local\Temp\RSPD548.tmp" with contents
+[
+kernel32.lib user32.lib winmm.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib /nologo /subsystem:console /incremental:yes /pdb:"OUTPUT/Debug/ucos_vc.pdb" /debug /machine:I386 /out:"ucos_vc.exe" /pdbtype:sept 
+.\OUTPUT\Debug\OS_CPU_C.OBJ
+.\OUTPUT\Debug\OS_CORE.OBJ
+.\OUTPUT\Debug\OS_FLAG.OBJ
+.\OUTPUT\Debug\OS_MBOX.OBJ
+.\OUTPUT\Debug\OS_MEM.OBJ
+.\OUTPUT\Debug\OS_MUTEX.OBJ
+.\OUTPUT\Debug\OS_Q.OBJ
+.\OUTPUT\Debug\OS_SEM.OBJ
+.\OUTPUT\Debug\OS_TASK.OBJ
+.\OUTPUT\Debug\OS_TIME.OBJ
+.\OUTPUT\Debug\commands.obj
+.\OUTPUT\Debug\shelltask.obj
+.\OUTPUT\Debug\api_dir.obj
+.\OUTPUT\Debug\api_in.obj
+.\OUTPUT\Debug\api_misc.obj
+.\OUTPUT\Debug\api_out.obj
+.\OUTPUT\Debug\fs_info.obj
+.\OUTPUT\Debug\clibmisc.obj
+.\OUTPUT\Debug\r_misc.obj
+.\OUTPUT\Debug\fat_data.obj
+.\OUTPUT\Debug\fat_dir.obj
+.\OUTPUT\Debug\fat_in.obj
+.\OUTPUT\Debug\fat_ioct.obj
+.\OUTPUT\Debug\fat_misc.obj
+.\OUTPUT\Debug\fat_open.obj
+.\OUTPUT\Debug\fat_out.obj
+.\OUTPUT\Debug\lb_misc.obj
+.\OUTPUT\Debug\fs_x_ucos_ii.obj
+.\OUTPUT\Debug\pc.obj
+.\OUTPUT\Debug\main.obj
+]
+Creating command line "link.exe @C:\Users\stophin\AppData\Local\Temp\RSPD548.tmp"
+<h3>Output Window</h3>
+Compiling...
+commands.c
+Linking...
+Creating temporary file "C:\Users\stophin\AppData\Local\Temp\RSPD6AF.tmp" with contents
+[
+/nologo /o"OUTPUT/Debug/ucos_vc.bsc" 
+.\OUTPUT\Debug\OS_CPU_C.SBR
+.\OUTPUT\Debug\OS_CORE.SBR
+.\OUTPUT\Debug\OS_FLAG.SBR
+.\OUTPUT\Debug\OS_MBOX.SBR
+.\OUTPUT\Debug\OS_MEM.SBR
+.\OUTPUT\Debug\OS_MUTEX.SBR
+.\OUTPUT\Debug\OS_Q.SBR
+.\OUTPUT\Debug\OS_SEM.SBR
+.\OUTPUT\Debug\OS_TASK.SBR
+.\OUTPUT\Debug\OS_TIME.SBR
+.\OUTPUT\Debug\commands.sbr
+.\OUTPUT\Debug\shelltask.sbr
+.\OUTPUT\Debug\api_dir.sbr
+.\OUTPUT\Debug\api_in.sbr
+.\OUTPUT\Debug\api_misc.sbr
+.\OUTPUT\Debug\api_out.sbr
+.\OUTPUT\Debug\fs_info.sbr
+.\OUTPUT\Debug\clibmisc.sbr
+.\OUTPUT\Debug\r_misc.sbr
+.\OUTPUT\Debug\fat_data.sbr
+.\OUTPUT\Debug\fat_dir.sbr
+.\OUTPUT\Debug\fat_in.sbr
+.\OUTPUT\Debug\fat_ioct.sbr
+.\OUTPUT\Debug\fat_misc.sbr
+.\OUTPUT\Debug\fat_open.sbr
+.\OUTPUT\Debug\fat_out.sbr
+.\OUTPUT\Debug\lb_misc.sbr
+.\OUTPUT\Debug\fs_x_ucos_ii.sbr
+.\OUTPUT\Debug\pc.sbr
+.\OUTPUT\Debug\main.sbr]
+Creating command line "bscmake.exe @C:\Users\stophin\AppData\Local\Temp\RSPD6AF.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ucos_vc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
